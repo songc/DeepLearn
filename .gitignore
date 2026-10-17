@@ -1,0 +1,44 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Datasets and model checkpoints
+data/
+*.pt
+*.pth
+*.bin
+*.h5
+*.onnx
+*.pkl
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDEs and editors
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Logs and outputs
+logs/
+*.log
+
+# Downloaded sample code repositories
+mxnet/
+paddle/
+pytorch/
+tensorflow/
